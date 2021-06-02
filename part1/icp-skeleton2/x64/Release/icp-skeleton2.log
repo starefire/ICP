@@ -1,0 +1,33 @@
+﻿  icp-skeleton2.cpp
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(190): warning C4244: argument: double se převádí na GLfloat; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(276): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(282): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(283): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(284): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(285): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+  Vytváří se kód.
+  4 of 238 functions ( 1.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Vytváření kódu se dokončilo.
+  icp-skeleton2.vcxproj -> C:\Users\honva\Documents\Visual Studio 2017\ICP_projects\ICP_cv03_triangle\x64\Release\icp-skeleton2.exe

@@ -1,0 +1,12 @@
+﻿  icp-skeleton2.cpp
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(260,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(512,59): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(623,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(624,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(628,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(629,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(630,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(631,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(739,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\icp-skeleton2\icp-skeleton2.cpp(740,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  icp-skeleton2.vcxproj -> C:\Users\Honza\Desktop\ICP\ICP_Semestralka_Prochy\x64\Debug\icp-skeleton2.exe

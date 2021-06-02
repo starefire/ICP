@@ -1,0 +1,58 @@
+﻿  icp-skeleton2.cpp
+  lua_engine.cpp
+  OBJloader.cpp
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(94): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(96): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(105): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(107): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(116): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(118): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(127): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(129): warning C4244: =: unsigned int se převádí na T; může dojít ke ztrátě dat.
+          with
+          [
+              T=float
+          ]
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(576): warning C4267: argument: Převod z: size_t na: GLsizei, může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(692): warning C4244: =: double se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(693): warning C4244: =: double se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(697): warning C4244: inicializování: double se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(698): warning C4244: inicializování: double se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(699): warning C4244: =: double se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(700): warning C4244: =: double se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(740): warning C4244: =: int se převádí na float; může dojít ke ztrátě dat.
+c:\users\honva\documents\visual studio 2017\icp_projects\icp_cv10_movement_camera\icp-skeleton2\icp-skeleton2.cpp(741): warning C4244: =: int se převádí na float; může dojít ke ztrátě dat.
+  Vytváří se kód.
+  826 of 832 functions (99.3%) were compiled, the rest were copied from previous compilation.
+    47 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Vytváření kódu se dokončilo.
+  icp-skeleton2.vcxproj -> C:\Users\honva\Documents\Visual Studio 2017\ICP_projects\ICP_cv10_movement_camera\x64\Release\icp-skeleton2.exe

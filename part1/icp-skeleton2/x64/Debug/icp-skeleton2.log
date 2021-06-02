@@ -1,0 +1,54 @@
+﻿  icp-skeleton2.cpp
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(190,20): warning C4244: argument: double se převádí na GLfloat; může dojít ke ztrátě dat.
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(190,15): warning C4244: argument: double se převádí na GLfloat; může dojít ke ztrátě dat.
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(276,33): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(276,18): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(282,35): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(282,29): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(283,35): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(283,29): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(284,38): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(284,21): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(285,38): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\honva\Desktop\ICP_cv03_triangle\icp-skeleton2\icp-skeleton2.cpp(285,21): warning C4244: argument: double se převádí na _Tp; může dojít ke ztrátě dat.
+          with
+          [
+              _Tp=int
+          ]
+  icp-skeleton2.vcxproj -> C:\Users\honva\Desktop\ICP_cv03_triangle\x64\Debug\icp-skeleton2.exe
