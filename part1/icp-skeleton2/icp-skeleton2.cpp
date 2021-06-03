@@ -161,23 +161,6 @@ static void init(void)
 		", FPS=" << globals.capture.get(cv::CAP_PROP_FPS) << std::endl;
 }
 
-void DrawCircle(float center_x, float center_y, float r, int num_segments)
-{
-	int i;
-	float theta, x, y;
-
-	glBegin(GL_LINE_LOOP);
-	for (i = 0; i < num_segments; i++)
-	{
-		theta = 2.0f * 3.1415926f * float(i) / float(num_segments);
-
-		x = r * cosf(theta);
-		y = r * sinf(theta);
-
-		glVertex2f(x + center_x, y + center_y);
-	}
-	glEnd();
-}
 
 void DrawMyObject(double _x, double _y)
 {
@@ -205,40 +188,16 @@ void DrawMyObject(double _x, double _y)
 int main(int argc, char * argv[])
 {
 	cv::Mat frame, scene;
-	
-	/*
-	// okno s posuvniky pro lepsi nalezeni spravnych hodnot pro prahovani
-	namedWindow("Control", CV_WINDOW_AUTOSIZE); //create a window called "Control"
 
+	
 	int iLowH = 0;
 	int iHighH = 179;
 
-	int iLowS = 0;
+	int iLowS = 146;
 	int iHighS = 255;
 
 	int iLowV = 0;
 	int iHighV = 255;
-
-	//Create trackbars in "Control" window
-	cvCreateTrackbar("LowH", "Control", &iLowH, 179); //Hue (0 - 179)
-	cvCreateTrackbar("HighH", "Control", &iHighH, 179);
-
-	cvCreateTrackbar("LowS", "Control", &iLowS, 255); //Saturation (0 - 255)
-	cvCreateTrackbar("HighS", "Control", &iHighS, 255);
-
-	cvCreateTrackbar("LowV", "Control", &iLowV, 255); //Value (0 - 255)
-	cvCreateTrackbar("HighV", "Control", &iHighV, 255);
-	*/
-
-	
-	int iLowH = 99;
-	int iHighH = 179;
-
-	int iLowS = 168;
-	int iHighS = 255;
-
-	int iLowV = 56;
-	int iHighV = 79;
 	
 
 	init();
