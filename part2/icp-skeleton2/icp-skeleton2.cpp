@@ -54,7 +54,7 @@ public:
 	float verticalAngle;
 };
 
-mesh height_map;
+
 mesh cube;
 mesh skybox_t;
 mesh skybox_m;
@@ -80,10 +80,12 @@ float lastX, lastY;
 bool firstMouse = true;
 int score = 0;
 
-float barier_left = -1000;
+float ball_min = -1500;
+
+float barier_left = 0;
 float barier_right = 1000;
 float barier_up = 1000;
-float barier_down = -1000; 
+float barier_down = 0; 
 
 int barrierl_direction = 1;
 int barrierr_direction = 1;
@@ -655,6 +657,11 @@ void move_player() {
 		ball_direction = -1;
 	}
 
+	if (ball.origin.y <= ball_min) {
+		cout << "GAME OVER" << endl;
+		glfwSetWindowShouldClose(globals.window, 1);
+	}
+
 	if (barrierr.origin.z > barier_up) {
 		barrierr_direction = -1;
 	}
@@ -698,7 +705,7 @@ void move_player() {
 		}
 		else {
 			globals.fullscreen = true;
-			glfwSetWindowMonitor(globals.window, globals.fullscreen ? glfwGetPrimaryMonitor() : NULL, 50, 50, 1920, 1080, GLFW_DONT_CARE);
+			glfwSetWindowMonitor(globals.window, globals.fullscreen ? glfwGetPrimaryMonitor() : NULL, 0, 0, 1920, 1080, GLFW_DONT_CARE);
 		}
 	}
 	
@@ -735,7 +742,7 @@ int main(int argc, char **argv) {
 	init();
 	player.origin = glm::vec3(0.0f, 0.0f, 0.0f);
 	loadOBJ(cube, "cube.obj");
-	cube.size = glm::vec3(200.0f, 200.0f, 200.0f);
+	cube.size = glm::vec3(100.0f, 100.0f, 100.0f);
 	lastX = globals.width / 2;
 	lastY = globals.height / 2;
 
@@ -769,12 +776,12 @@ int main(int argc, char **argv) {
 	loadOBJ(barrierl, "cube.obj");
 	set_subtexture(barrierl, 2, 2, 16);
 	barrierl.origin = glm::vec3(200.0f, barrierh, 100.0f);
-	barrierl.size = glm::vec3(150.0f, 5.0f, 150.0f);
+	barrierl.size = glm::vec3(300.0f, 5.0f, 300.0f);
 
 	loadOBJ(barrierr, "cube.obj");
 	set_subtexture(barrierr, 2, 2, 16);
-	barrierr.origin = glm::vec3(400.0f, barrierh, 0.0f);
-	barrierr.size = glm::vec3(200.0f, 5.0f, 200.0f);
+	barrierr.origin = glm::vec3(1000.0f, barrierh, 0.0f);
+	barrierr.size = glm::vec3(300.0f, 5.0f, 300.0f);
 
 
 	vector<thread> threads;
@@ -898,18 +905,20 @@ void draw_all()
 
 	for (int i = 0; i <( ball.vertices.size() ); i++) {
 		// transparency of object done using alpha in color
-		ball.colors.push_back(glm::vec4(1.0f, 1.0f, 1.0f, 0.75f));
+		ball.colors.push_back(glm::vec4(1.0f, 1.0f, 1.0f, 1.0f));
 	}
 
 	ball.textures_used = true;
 
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 
 	for (int i = 0; i < (36); i++) {
-		barrierl.colors.push_back(glm::vec4(1.0f, 1.0f, 1.0f, 1.0f));
+		barrierl.colors.push_back(glm::vec4(1.0f, 0.0f, 0.0f, 0.5f));
 	}
 
-	barrierl.textures_used = true;
+	//barrierl.textures_used = true;
 	glPushMatrix();
 	glTranslatef(barrierl.origin.x, barrierl.origin.y, barrierl.origin.z);
 	glScalef(barrierl.size.x, barrierl.size.y, barrierl.size.z);
@@ -917,10 +926,10 @@ void draw_all()
 	glPopMatrix();
 
 	for (int i = 0; i < (36); i++) {
-		barrierr.colors.push_back(glm::vec4(1.0f, 1.0f, 1.0f, 1.0f));
+		barrierr.colors.push_back(glm::vec4(1.0f, 0.0f, 0.0f, 0.5f));
 	}
 
-	barrierr.textures_used = true;
+	//barrierr.textures_used = true;
 	glPushMatrix();
 	glTranslatef(barrierr.origin.x, barrierr.origin.y, barrierr.origin.z);
 	glScalef(barrierr.size.x, barrierr.size.y, barrierr.size.z);
@@ -936,8 +945,6 @@ void draw_all()
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 
 	//semi-transparent object, colour through Phong model
-	glEnable(GL_BLEND);
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	
 	glPushMatrix();
 	glTranslatef(ball.origin.x, ball.origin.y, ball.origin.z);
